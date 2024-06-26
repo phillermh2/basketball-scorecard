@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    align-content: center;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin: 0 0 21px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 575px;
+    height: 385px;
+    margin: 20px auto 0 auto;
+    background-color: #1B244A;
+}
+
+.score-wrapper {
+    text-align: center;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.scoreboard {
+    background-color: #080001;
+    width: 155px;
+    line-height: 120px;
+    font-size: 90px;
+    margin: 0 0 26px 0;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 155px;
+    height: 45px;
+}
+
+.scores p {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 41px;
+    height: 41px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #FFCF99;
+    width: 575px;
+    margin: 0 auto;
+}
+
+.controls button {
+    margin: 0 20px;
+    padding: 10px 50px;
+    border: 2px solid #1B244A;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+#save {
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+#save:hover {
+    background-color: green;
+}
+
+#reset {
+    background-color: pink;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    background-color: red;
+}
+
+.saved-scores {
+    width: 575px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: #92140C;
+    padding: 10px 0;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.saved-scores h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.saved-scores p {
+    margin: 0 40px;
+}
